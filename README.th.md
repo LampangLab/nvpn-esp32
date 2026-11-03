@@ -1,9 +1,8 @@
-[README.th.md](https://github.com/user-attachments/files/34249770/README.th.md)
 # nvpn-esp32 (ภาษาไทย)
 
 **ให้ ESP32 เข้าร่วมเครือข่ายส่วนตัว [nostr-vpn](https://github.com/mmalmi/nostr-vpn) ได้จาก Wi-Fi ไหนก็ได้ หลัง NAT/CGNAT โดยไม่ต้องมีเซิร์ฟเวอร์ของตัวเอง**
 
-[English README](README.md)
+[English README](README.md) · Repository: <https://github.com/LampangLab/nvpn-esp32>
 
 > **ไม่เป็นทางการ:** โปรเจ็กต์นี้เป็นการพอร์ตโดยอิสระ ไม่ได้เกี่ยวข้องหรือได้รับการรับรองจาก nostr-vpn, FIPS, Nostr หรือ iris.to
 
@@ -27,7 +26,7 @@
 - **ทดสอบบนบอร์ดจริงแล้ว** (Arduino-ESP32, Wi-Fi บ้าน, PC Windows รันแอป nostr-vpn 4.1.19): ต่อ node ใน LAN, ping สองทาง, UDP echo และ TCP/HTTP; ต่อโหนดสาธารณะ `fips2.iris.to` แล้วคุยกับ PC ผ่านโหนดนั้น รันราว 30 นาที ผ่าน UDP 114/123 และ TCP/HTTP 117/123 (ราว 7% ล้มเหลว RTT ปกติ 0.5–0.8 วินาที); self-test เข้ารหัสบนบอร์ด 12/12
 - **ทดสอบบนเครื่อง host เท่านั้น:** ส่งต่อหลายฮอป leaf → seed → peer, session ขาเข้าผ่าน seed, กู้ session หลัง peer รีสตาร์ท, ชุดตรวจ 1,215 ข้อ (ค่าคาดหวังสร้างจากโค้ด Rust ต้นฉบับ), ASan/UBSan สะอาด
 - **ยังไม่ได้ทดสอบ:** แอปมือถือ, สองเครือข่ายที่แยกกันจริง (ตอนทดสอบบนบอร์ด PC กับบอร์ดใช้ Wi-Fi เดียวกัน แต่ทราฟฟิกวิ่งผ่านโหนดสาธารณะ), การ build lwIP netif/ตัวอย่างด้วย ESP-IDF จริง, เสถียรภาพเกิน ~30 นาที, ชิป ESP32 รุ่นอื่น, ชั้น Nostr บนบอร์ดและ relay จริง
-- **ข้อจำกัด:** เป็น leaf (ไม่ forward ให้คนอื่น), ไม่เริ่ม rekey เอง, ไม่มี MMP, ไม่มี control frame join/ack (แอปอาจขึ้น "waiting to confirm" ทั้งที่ข้อมูลเดินปกติ), ไม่ทำ hole punching, เฉพาะ IPv4 ใน `10.44.0.0/16`, ยังไม่ได้วัด/ลดการใช้ RAM
+- **ข้อจำกัด:** เป็น leaf (ไม่ forward ให้คนอื่น) และเจรจาบทบาท Client-Only ของ FIPS (`ClientSupport`/`ClientOnly`) ถ้า upstream ไม่ตอบจะถอยไปใช้ `TreeAnnounce` (รายละเอียดใน [docs/INTEROP.md](docs/INTEROP.md)), ไม่เริ่ม rekey เอง, MMP ส่งเฉพาะ session `ReceiverReport` (ไม่มี SenderReport และรายงานระดับลิงก์), ตอบเฉพาะ control frame Ping (ด้วย Pong) ไม่มี frame join/ack (แอปอาจขึ้น "waiting to confirm" ทั้งที่ข้อมูลเดินปกติ), ไม่ทำ hole punching, เฉพาะ IPv4 ใน `10.44.0.0/16`, ยังไม่ได้วัด/ลดการใช้ RAM
 
 ## เริ่มต้น (Arduino IDE)
 
@@ -37,7 +36,7 @@
    `nvpn add-device --device npub1… --publish && nvpn reload` แล้ววาง roster ใหม่ลงสเก็ตช์และอัปโหลดอีกครั้ง
 4. ping IP ของบอร์ดจากเครื่องอื่น (`tools/mesh_ip.py` คำนวณ IP จากกุญแจ)
 
-ค่าเริ่มต้นใช้โหนดสาธารณะเดียวกับที่แอป nostr-vpn ใช้ (`fips1.iris.to` / `fips2.iris.to` พอร์ต 51820) ซึ่งเป็นเซิร์ฟเวอร์ของบุคคลที่สาม ใช้ฟรีแต่ไม่มีการรับประกัน ถ้าต้องการความแน่นอน ให้รัน `fips` เองบนเครื่องที่มี IP สาธารณะ
+ค่าเริ่มต้นใช้โหนดสาธารณะเดียวกับที่แอป nostr-vpn ใช้ (`fips1.iris.to` / `fips2.iris.to` พอร์ต 51820) ผู้ดูแล nostr-vpn แจ้งว่าอุปกรณ์เล็กอย่าง ESP32/MCU ใช้โหนดเหล่านี้ได้ ไม่จำเป็นต้องรัน seed เองเพียงเพราะอุปกรณ์มีทรัพยากรจำกัด ([nostr-vpn#157](https://github.com/mmalmi/nostr-vpn/issues/157)) แต่ยังเป็นเซิร์ฟเวอร์ของบุคคลที่สามที่ไม่มีการรับประกันบริการ จึงไม่ควรพึ่งพาในงานสำคัญ ถ้าต้องการความแน่นอนให้รัน `fips` เองแล้วตั้ง `UP_HOST` / `UP_PUBKEY`
 
 คู่มือทดสอบทีละขั้น: [docs/TESTING.md](docs/TESTING.md) · ชั้น Nostr: [docs/NOSTR.md](docs/NOSTR.md)
 
