@@ -1,0 +1,14 @@
+menu "nostr-vpn virtual LAN example"
+    config NVPN_UPSTREAM_HOST
+        string "Upstream FIPS node host (IP or DNS name)"
+        default "192.168.1.10"
+    config NVPN_UPSTREAM_PORT
+        int "Upstream FIPS UDP port"
+        default 51820
+    config NVPN_UPSTREAM_PUBKEY
+        string "Upstream FIPS node public key (npub1... or hex)"
+        default ""
+    config NVPN_TRUSTED_ADMIN
+        string "Admin public key (npub1... or hex) that must have signed main/roster.json"
+        default ""
+endmenu

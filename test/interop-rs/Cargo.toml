@@ -1,0 +1,8 @@
+[package]
+name = "echo"
+version = "0.1.0"
+edition = "2024"
+# Reference peer built from the *real* nostr-vpn FIPS core (the crate nostr-vpn itself depends on).
+[dependencies]
+nvpn-fips-core = "=0.4.107"
+tokio = { version = "1", features = ["full"] }

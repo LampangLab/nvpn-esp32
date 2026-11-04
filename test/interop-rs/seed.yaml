@@ -1,0 +1,14 @@
+node:
+  rekey:
+    enabled: true
+    after_secs: 15
+  discovery:
+    nostr:
+      enabled: false
+    lan:
+      enabled: false
+    local:
+      enabled: false
+transports:
+  udp:
+    bind_addr: "127.0.0.1:2122"

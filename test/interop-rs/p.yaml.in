@@ -1,0 +1,18 @@
+node:
+  discovery:
+    nostr:
+      enabled: false
+    lan:
+      enabled: false
+    local:
+      enabled: false
+transports:
+  udp:
+    bind_addr: "127.0.0.1:2123"
+peers:
+  - npub: "@SEED_NPUB@"
+    alias: "seed"
+    addresses:
+      - transport: udp
+        addr: "127.0.0.1:2122"
+    connect_policy: auto_connect

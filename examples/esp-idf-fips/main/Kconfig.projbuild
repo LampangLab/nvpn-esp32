@@ -1,0 +1,20 @@
+menu "FIPS leaf example"
+    config FIPS_UPSTREAM_HOST
+        string "Upstream FIPS node host (IP or DNS name)"
+        default "192.168.1.10"
+    config FIPS_UPSTREAM_PORT
+        int "Upstream FIPS UDP port"
+        default 2121
+    config FIPS_UPSTREAM_PUBKEY
+        string "Upstream FIPS node public key (npub1... or 64-char hex)"
+        default ""
+    config FIPS_DEST_PUBKEY
+        string "Optional destination node pubkey for a test message (empty = link only)"
+        default ""
+    config FIPS_DEST_PORT
+        int "Destination service port"
+        default 7
+    config FIPS_MESSAGE
+        string "Test message sent every 10 s once the session is up"
+        default "hello from esp32"
+endmenu

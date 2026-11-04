@@ -1,0 +1,366 @@
+{
+  "ips": [
+    {
+      "ip": "10.44.71.76",
+      "net": "home",
+      "pk": "100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494"
+    },
+    {
+      "ip": "10.44.55.157",
+      "net": "nostr-vpn:550E8400-e29b-41d4-a716-446655440000",
+      "pk": "100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494"
+    },
+    {
+      "ip": "10.44.66.212",
+      "net": "Mesh One",
+      "pk": "100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494"
+    },
+    {
+      "ip": "10.44.215.8",
+      "net": "home",
+      "pk": "7dd1c2c511c75d751e803542b4f34bf09b6a55d88d1faa7f33d18899520e30e8"
+    },
+    {
+      "ip": "10.44.247.194",
+      "net": "nostr-vpn:550E8400-e29b-41d4-a716-446655440000",
+      "pk": "7dd1c2c511c75d751e803542b4f34bf09b6a55d88d1faa7f33d18899520e30e8"
+    },
+    {
+      "ip": "10.44.127.53",
+      "net": "Mesh One",
+      "pk": "7dd1c2c511c75d751e803542b4f34bf09b6a55d88d1faa7f33d18899520e30e8"
+    },
+    {
+      "ip": "10.44.129.214",
+      "net": "home",
+      "pk": "690bfafa3368339c81e74d31b4898ef160fdcfbec47fa0f8321b7f5363feeb9c"
+    },
+    {
+      "ip": "10.44.226.138",
+      "net": "nostr-vpn:550E8400-e29b-41d4-a716-446655440000",
+      "pk": "690bfafa3368339c81e74d31b4898ef160fdcfbec47fa0f8321b7f5363feeb9c"
+    },
+    {
+      "ip": "10.44.120.209",
+      "net": "Mesh One",
+      "pk": "690bfafa3368339c81e74d31b4898ef160fdcfbec47fa0f8321b7f5363feeb9c"
+    },
+    {
+      "ip": "10.44.109.253",
+      "net": "home",
+      "pk": "52ac0e4be4272a58b7cd5a25bd94950031d47fb4181fbd558f051593441d6788"
+    },
+    {
+      "ip": "10.44.34.94",
+      "net": "nostr-vpn:550E8400-e29b-41d4-a716-446655440000",
+      "pk": "52ac0e4be4272a58b7cd5a25bd94950031d47fb4181fbd558f051593441d6788"
+    },
+    {
+      "ip": "10.44.183.136",
+      "net": "Mesh One",
+      "pk": "52ac0e4be4272a58b7cd5a25bd94950031d47fb4181fbd558f051593441d6788"
+    },
+    {
+      "ip": "10.44.147.112",
+      "net": "home",
+      "pk": "745064a030b9d7c795b7a755baf4e553f47d5f7fdb4a852bcf904ce3d660d01e"
+    },
+    {
+      "ip": "10.44.231.204",
+      "net": "nostr-vpn:550E8400-e29b-41d4-a716-446655440000",
+      "pk": "745064a030b9d7c795b7a755baf4e553f47d5f7fdb4a852bcf904ce3d660d01e"
+    },
+    {
+      "ip": "10.44.197.217",
+      "net": "Mesh One",
+      "pk": "745064a030b9d7c795b7a755baf4e553f47d5f7fdb4a852bcf904ce3d660d01e"
+    },
+    {
+      "ip": "10.44.226.53",
+      "net": "home",
+      "pk": "82e1d53cd559e7f7edee71bf396c0172815c5d967ac549b95fb826c83be5db61"
+    },
+    {
+      "ip": "10.44.85.163",
+      "net": "nostr-vpn:550E8400-e29b-41d4-a716-446655440000",
+      "pk": "82e1d53cd559e7f7edee71bf396c0172815c5d967ac549b95fb826c83be5db61"
+    },
+    {
+      "ip": "10.44.86.62",
+      "net": "Mesh One",
+      "pk": "82e1d53cd559e7f7edee71bf396c0172815c5d967ac549b95fb826c83be5db61"
+    }
+  ],
+  "keys": [
+    {
+      "npub": "npub1zq8kmr9ljjhmdlzca8pcfwdn5egkpyfh82pus605uf9f62a55j2qcdwzky",
+      "pk": "100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494",
+      "sk": "1100000000000000000000000000000000000000000000000000000000000001"
+    },
+    {
+      "npub": "npub10hgu93g3cawh285qx4ptfu6t7zdk54wc35065len6xyfj5swxr5qkynhg4",
+      "pk": "7dd1c2c511c75d751e803542b4f34bf09b6a55d88d1faa7f33d18899520e30e8",
+      "sk": "2200000000000000000000000000000000000000000000000000000000000002"
+    },
+    {
+      "npub": "npub1dy9l473ndqeeeq08f5cmfzvw79s0mna7c3l6p7pjrdl4xcl7awwq5sttkm",
+      "pk": "690bfafa3368339c81e74d31b4898ef160fdcfbec47fa0f8321b7f5363feeb9c",
+      "sk": "3300000000000000000000000000000000000000000000000000000000000003"
+    },
+    {
+      "npub": "npub122kqujlyyu493d7dtgjmm9y4qqcagla5rq0m64v0q52ex3qav7yq2ys72r",
+      "pk": "52ac0e4be4272a58b7cd5a25bd94950031d47fb4181fbd558f051593441d6788",
+      "sk": "4400000000000000000000000000000000000000000000000000000000000004"
+    },
+    {
+      "npub": "npub1w3gxfgpsh8tu09dh5a2m4a8920686hmlmd9g2270jpxw84nq6q0qtvk7pt",
+      "pk": "745064a030b9d7c795b7a755baf4e553f47d5f7fdb4a852bcf904ce3d660d01e",
+      "sk": "5500000000000000000000000000000000000000000000000000000000000005"
+    },
+    {
+      "npub": "npub1stsa20x4t8nl0m0wwxlnjmqpw2q4chvk0tz5nw2lhqnvswl9mdssv2wplh",
+      "pk": "82e1d53cd559e7f7edee71bf396c0172815c5d967ac549b95fb826c83be5db61",
+      "sk": "6600000000000000000000000000000000000000000000000000000000000006"
+    }
+  ],
+  "labels": [
+    {
+      "in": "Living Room",
+      "out": "living-room"
+    },
+    {
+      "in": "  Pi--Zero  ",
+      "out": "pi-zero"
+    },
+    {
+      "in": "ESP32_#1",
+      "out": "esp32-1"
+    },
+    {
+      "in": "café",
+      "out": "caf"
+    },
+    {
+      "in": "日本語",
+      "out": null
+    },
+    {
+      "in": "a",
+      "out": "a"
+    },
+    {
+      "in": "---",
+      "out": null
+    },
+    {
+      "in": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "out": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    },
+    {
+      "in": "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy-z",
+      "out": "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"
+    },
+    {
+      "in": "UPPER",
+      "out": "upper"
+    },
+    {
+      "in": "",
+      "out": null
+    },
+    {
+      "in": "-lead",
+      "out": "lead"
+    },
+    {
+      "in": "trail-",
+      "out": "trail"
+    },
+    {
+      "in": "a  b__c",
+      "out": "a-b-c"
+    }
+  ],
+  "netids": [
+    {
+      "in": "Home",
+      "out": "Home"
+    },
+    {
+      "in": "  mesh  ",
+      "out": "mesh"
+    },
+    {
+      "in": "nostr-vpn:abc",
+      "out": "abc"
+    },
+    {
+      "in": "nostr-vpn: 12AB-cd EF ",
+      "out": "12abcdef"
+    },
+    {
+      "in": "0123-4567-89AB-cdef",
+      "out": "0123456789abcdef"
+    },
+    {
+      "in": "550e8400-e29b-41d4-a716-446655440000",
+      "out": "550e8400e29b41d4a716446655440000"
+    },
+    {
+      "in": "---",
+      "out": ""
+    },
+    {
+      "in": "   ",
+      "out": ""
+    },
+    {
+      "in": "",
+      "out": ""
+    },
+    {
+      "in": "Net Work-1",
+      "out": "Net Work-1"
+    },
+    {
+      "in": "nostr-vpn:",
+      "out": ""
+    },
+    {
+      "in": "ABCDEFG",
+      "out": "ABCDEFG"
+    },
+    {
+      "in": "a b",
+      "out": "ab"
+    }
+  ],
+  "rosters": [
+    {
+      "admins": [
+        "100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494"
+      ],
+      "aliases": {
+        "100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494": "admin box",
+        "690bfafa3368339c81e74d31b4898ef160fdcfbec47fa0f8321b7f5363feeb9c": "esp32-sensor",
+        "7dd1c2c511c75d751e803542b4f34bf09b6a55d88d1faa7f33d18899520e30e8": "Living Room"
+      },
+      "devices": [
+        "52ac0e4be4272a58b7cd5a25bd94950031d47fb4181fbd558f051593441d6788",
+        "690bfafa3368339c81e74d31b4898ef160fdcfbec47fa0f8321b7f5363feeb9c",
+        "7dd1c2c511c75d751e803542b4f34bf09b6a55d88d1faa7f33d18899520e30e8"
+      ],
+      "event": "{\"id\":\"8be7bec67318f791d36e6a8f4b949d0f6d985c5fbf8a45befac1c593f7308579\",\"pubkey\":\"100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494\",\"created_at\":1800000000,\"kind\":30388,\"tags\":[[\"d\",\"home\"],[\"app\",\"nostr-vpn/shared-roster\"],[\"v\",\"1\"],[\"name\",\"Home Mesh\"],[\"member\",\"52ac0e4be4272a58b7cd5a25bd94950031d47fb4181fbd558f051593441d6788\"],[\"member\",\"690bfafa3368339c81e74d31b4898ef160fdcfbec47fa0f8321b7f5363feeb9c\"],[\"member\",\"7dd1c2c511c75d751e803542b4f34bf09b6a55d88d1faa7f33d18899520e30e8\"],[\"admin\",\"100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494\"],[\"alias\",\"100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494\",\"admin box\"],[\"alias\",\"690bfafa3368339c81e74d31b4898ef160fdcfbec47fa0f8321b7f5363feeb9c\",\"esp32-sensor\"],[\"alias\",\"7dd1c2c511c75d751e803542b4f34bf09b6a55d88d1faa7f33d18899520e30e8\",\"Living Room\"]],\"content\":\"\",\"sig\":\"fc38bbd5291235b9bff81ea51f0b955c6b72a09a6d98539d5e2a3327d345a00e39ef740503a478099296eb312dae920bdaf1bb9546bfd24d68e1213f42b22cac\"}",
+      "id": "8be7bec67318f791d36e6a8f4b949d0f6d985c5fbf8a45befac1c593f7308579",
+      "name": "basic",
+      "net_name": "Home Mesh",
+      "network_id": "home",
+      "ok": true,
+      "signed_at": 1800000000,
+      "signer": "100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494"
+    },
+    {
+      "event": "{\"event\":{\"id\":\"8be7bec67318f791d36e6a8f4b949d0f6d985c5fbf8a45befac1c593f7308579\",\"pubkey\":\"100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494\",\"created_at\":1800000000,\"kind\":30388,\"tags\":[[\"d\",\"home\"],[\"app\",\"nostr-vpn/shared-roster\"],[\"v\",\"1\"],[\"name\",\"Home Mesh\"],[\"member\",\"52ac0e4be4272a58b7cd5a25bd94950031d47fb4181fbd558f051593441d6788\"],[\"member\",\"690bfafa3368339c81e74d31b4898ef160fdcfbec47fa0f8321b7f5363feeb9c\"],[\"member\",\"7dd1c2c511c75d751e803542b4f34bf09b6a55d88d1faa7f33d18899520e30e8\"],[\"admin\",\"100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494\"],[\"alias\",\"100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494\",\"admin box\"],[\"alias\",\"690bfafa3368339c81e74d31b4898ef160fdcfbec47fa0f8321b7f5363feeb9c\",\"esp32-sensor\"],[\"alias\",\"7dd1c2c511c75d751e803542b4f34bf09b6a55d88d1faa7f33d18899520e30e8\",\"Living Room\"]],\"content\":\"\",\"sig\":\"fc38bbd5291235b9bff81ea51f0b955c6b72a09a6d98539d5e2a3327d345a00e39ef740503a478099296eb312dae920bdaf1bb9546bfd24d68e1213f42b22cac\"}}",
+      "id": "8be7bec67318f791d36e6a8f4b949d0f6d985c5fbf8a45befac1c593f7308579",
+      "name": "wrapped",
+      "network_id": "home",
+      "ok": true,
+      "signed_at": 1800000000
+    },
+    {
+      "event": "{\"id\":\"57094f8edb85b6a48084630516ca0891ff83bcb36d5f1bdfecd5968db9eacf57\",\"pubkey\":\"100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494\",\"created_at\":1700000001,\"kind\":30388,\"tags\":[[\"d\",\"uuid-ish-1234\"],[\"app\",\"nostr-vpn/shared-roster\"],[\"v\",\"1\"],[\"name\",\"Näme \\\"x\\\" 😀\"],[\"member\",\"7dd1c2c511c75d751e803542b4f34bf09b6a55d88d1faa7f33d18899520e30e8\"],[\"admin\",\"100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494\"],[\"admin\",\"690bfafa3368339c81e74d31b4898ef160fdcfbec47fa0f8321b7f5363feeb9c\"],[\"alias\",\"7dd1c2c511c75d751e803542b4f34bf09b6a55d88d1faa7f33d18899520e30e8\",\"q\\\"uo\\\\te\\n\\ttab\\u0001\\u001f é 😀 \"]],\"content\":\"\",\"sig\":\"c60e67f6b6ca92d23c6c47157128387a68d172064403288c5a3c19e435e8180a2870536fa2c10931498c5b6a297b25002a1fed6dbb55a2e212769c84fb1ed667\"}",
+      "id": "57094f8edb85b6a48084630516ca0891ff83bcb36d5f1bdfecd5968db9eacf57",
+      "name": "escapes",
+      "network_id": "uuid-ish-1234",
+      "ok": true,
+      "signed_at": 1700000001
+    },
+    {
+      "event": "{ \"sig\" : \"fc38bbd5291235b9bff81ea51f0b955c6b72a09a6d98539d5e2a3327d345a00e39ef740503a478099296eb312dae920bdaf1bb9546bfd24d68e1213f42b22cac\", \"tags\" : [[\"d\",\"home\"],[\"app\",\"nostr-vpn/shared-roster\"],[\"v\",\"1\"],[\"name\",\"Home Mesh\"],[\"member\",\"52ac0e4be4272a58b7cd5a25bd94950031d47fb4181fbd558f051593441d6788\"],[\"member\",\"690bfafa3368339c81e74d31b4898ef160fdcfbec47fa0f8321b7f5363feeb9c\"],[\"member\",\"7dd1c2c511c75d751e803542b4f34bf09b6a55d88d1faa7f33d18899520e30e8\"],[\"admin\",\"100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494\"],[\"alias\",\"100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494\",\"admin box\"],[\"alias\",\"690bfafa3368339c81e74d31b4898ef160fdcfbec47fa0f8321b7f5363feeb9c\",\"esp32-sensor\"],[\"alias\",\"7dd1c2c511c75d751e803542b4f34bf09b6a55d88d1faa7f33d18899520e30e8\",\"Living Room\"]], \"content\":\"\",\"kind\":30388, \"created_at\":1800000000,\"pubkey\":\"100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494\",\"id\":\"8be7bec67318f791d36e6a8f4b949d0f6d985c5fbf8a45befac1c593f7308579\" }",
+      "id": "8be7bec67318f791d36e6a8f4b949d0f6d985c5fbf8a45befac1c593f7308579",
+      "name": "reordered",
+      "network_id": "home",
+      "ok": true,
+      "signed_at": 1800000000
+    },
+    {
+      "event": "{\"id\":\"57094f8edb85b6a48084630516ca0891ff83bcb36d5f1bdfecd5968db9eacf57\",\"pubkey\":\"100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494\",\"created_at\":1700000001,\"kind\":30388,\"tags\":[[\"d\",\"uuid-ish-1234\"],[\"app\",\"nostr-vpn/shared-roster\"],[\"v\",\"1\"],[\"name\",\"Näme \\\"x\\\" \\ud83d\\ude00\"],[\"member\",\"7dd1c2c511c75d751e803542b4f34bf09b6a55d88d1faa7f33d18899520e30e8\"],[\"admin\",\"100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494\"],[\"admin\",\"690bfafa3368339c81e74d31b4898ef160fdcfbec47fa0f8321b7f5363feeb9c\"],[\"alias\",\"7dd1c2c511c75d751e803542b4f34bf09b6a55d88d1faa7f33d18899520e30e8\",\"q\\\"uo\\\\te\\n\\ttab\\u0001\\u001f \\u00e9 \\ud83d\\ude00 \"]],\"content\":\"\",\"sig\":\"c60e67f6b6ca92d23c6c47157128387a68d172064403288c5a3c19e435e8180a2870536fa2c10931498c5b6a297b25002a1fed6dbb55a2e212769c84fb1ed667\"}",
+      "id": "57094f8edb85b6a48084630516ca0891ff83bcb36d5f1bdfecd5968db9eacf57",
+      "name": "unicode-escaped",
+      "network_id": "uuid-ish-1234",
+      "ok": true,
+      "signed_at": 1700000001
+    },
+    {
+      "err": "ID",
+      "event": "{\"id\":\"8be7bec67318f791d36e6a8f4b949d0f6d985c5fbf8a45befac1c593f7308579\",\"pubkey\":\"100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494\",\"created_at\":1800000000,\"kind\":30388,\"tags\":[[\"d\",\"home\"],[\"app\",\"nostr-vpn/shared-roster\"],[\"v\",\"1\"],[\"name\",\"Home Mash\"],[\"member\",\"52ac0e4be4272a58b7cd5a25bd94950031d47fb4181fbd558f051593441d6788\"],[\"member\",\"690bfafa3368339c81e74d31b4898ef160fdcfbec47fa0f8321b7f5363feeb9c\"],[\"member\",\"7dd1c2c511c75d751e803542b4f34bf09b6a55d88d1faa7f33d18899520e30e8\"],[\"admin\",\"100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494\"],[\"alias\",\"100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494\",\"admin box\"],[\"alias\",\"690bfafa3368339c81e74d31b4898ef160fdcfbec47fa0f8321b7f5363feeb9c\",\"esp32-sensor\"],[\"alias\",\"7dd1c2c511c75d751e803542b4f34bf09b6a55d88d1faa7f33d18899520e30e8\",\"Living Room\"]],\"content\":\"\",\"sig\":\"fc38bbd5291235b9bff81ea51f0b955c6b72a09a6d98539d5e2a3327d345a00e39ef740503a478099296eb312dae920bdaf1bb9546bfd24d68e1213f42b22cac\"}",
+      "name": "tampered-name",
+      "ok": false
+    },
+    {
+      "err": "SIG",
+      "event": "{\"content\":\"\",\"created_at\":1800000000,\"id\":\"8be7bec67318f791d36e6a8f4b949d0f6d985c5fbf8a45befac1c593f7308579\",\"kind\":30388,\"pubkey\":\"100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494\",\"sig\":\"fc38bbd5291235b9bff81ea51f0b955c6b72a09a6d98539d5e2a3327d345a00e39ef740503a478099296eb312dae920bdaf1bb9546bfd24d68e1213f42b22ca0\",\"tags\":[[\"d\",\"home\"],[\"app\",\"nostr-vpn/shared-roster\"],[\"v\",\"1\"],[\"name\",\"Home Mesh\"],[\"member\",\"52ac0e4be4272a58b7cd5a25bd94950031d47fb4181fbd558f051593441d6788\"],[\"member\",\"690bfafa3368339c81e74d31b4898ef160fdcfbec47fa0f8321b7f5363feeb9c\"],[\"member\",\"7dd1c2c511c75d751e803542b4f34bf09b6a55d88d1faa7f33d18899520e30e8\"],[\"admin\",\"100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494\"],[\"alias\",\"100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494\",\"admin box\"],[\"alias\",\"690bfafa3368339c81e74d31b4898ef160fdcfbec47fa0f8321b7f5363feeb9c\",\"esp32-sensor\"],[\"alias\",\"7dd1c2c511c75d751e803542b4f34bf09b6a55d88d1faa7f33d18899520e30e8\",\"Living Room\"]]}",
+      "name": "bad-sig",
+      "ok": false
+    },
+    {
+      "err": "KIND",
+      "event": "{\"id\":\"96e5497ae261849f2a34a0fa482bb8f120a9adc62ae397c82718a3b3a81d1293\",\"pubkey\":\"100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494\",\"created_at\":1793232028,\"kind\":30389,\"tags\":[[\"d\",\"home\"],[\"app\",\"nostr-vpn/shared-roster\"],[\"v\",\"1\"]],\"content\":\"\",\"sig\":\"286a57e28220caf655bbdede2f66830d1ab1be5d1e78a33f1c041e6fd577d014fa74e55e6b8d581c2faf4329c0875738c251d32102328edc071d72471bcb0fc6\"}",
+      "name": "wrong-kind",
+      "ok": false
+    },
+    {
+      "err": "CONTENT",
+      "event": "{\"id\":\"0fa89c42ec8b364e703389baed2517f1ee581de0f9970c5942005094079305aa\",\"pubkey\":\"100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494\",\"created_at\":1793232028,\"kind\":30388,\"tags\":[[\"d\",\"home\"],[\"app\",\"nostr-vpn/shared-roster\"],[\"v\",\"1\"]],\"content\":\"hi\",\"sig\":\"94ad75e9c8e383c1e0b6bd860730789366d0864d4991ad8ee4f7a560236469f42d18ace7692874ca0bdcab7803e9cb8cb932b2586653ee28a3d969dd431afa10\"}",
+      "name": "content",
+      "ok": false
+    },
+    {
+      "err": "ROSTER",
+      "event": "{\"id\":\"1f8ca5005bb16291a8cd7179c7d70ae6901475c60c966e69674e8db78554d2dc\",\"pubkey\":\"100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494\",\"created_at\":1793232028,\"kind\":30388,\"tags\":[[\"d\",\"home\"],[\"v\",\"1\"]],\"content\":\"\",\"sig\":\"0c6a86fae5ad407ee4e4a416288f183e8004aa5aa48409e0c9f2293057459ba4e8f9432ca17d9a9091b57815277c2e9c71ebb0b36b1f26dce12cc970c3f524e0\"}",
+      "name": "no-app",
+      "ok": false
+    },
+    {
+      "admins": [
+        "100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494"
+      ],
+      "devices": [
+        "7dd1c2c511c75d751e803542b4f34bf09b6a55d88d1faa7f33d18899520e30e8"
+      ],
+      "event": "{\"id\":\"9e553a687d3ff54fcecefe8348e53895ac0758b124c1041097404fce5b3a1880\",\"pubkey\":\"100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494\",\"created_at\":1800000100,\"kind\":30388,\"tags\":[[\"d\",\"home\"],[\"app\",\"nostr-vpn/shared-roster\"],[\"v\",\"1\"],[\"member\",\"npub10hgu93g3cawh285qx4ptfu6t7zdk54wc35065len6xyfj5swxr5qkynhg4\"],[\"admin\",\"100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494\"]],\"content\":\"\",\"sig\":\"99504c971612d0477cb8804d628f36451ee4543d9e4c3374721e9f24e0a567764c3d434952388d255e04b38566bfc9d72b5ebaf771c0f537ebe8cf1c4d240a39\"}",
+      "id": "9e553a687d3ff54fcecefe8348e53895ac0758b124c1041097404fce5b3a1880",
+      "name": "npub-member",
+      "network_id": "home",
+      "ok": true,
+      "signed_at": 1800000100
+    },
+    {
+      "event": "{\"id\":\"b273a3625dbfc3a7a6b1dd37655c81fefc4605667dfd6a949d235c3aff80cd92\",\"pubkey\":\"100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494\",\"created_at\":1800000500,\"kind\":30388,\"tags\":[[\"d\",\"home\"],[\"app\",\"nostr-vpn/shared-roster\"],[\"v\",\"1\"],[\"name\",\"Home Mesh\"],[\"member\",\"52ac0e4be4272a58b7cd5a25bd94950031d47fb4181fbd558f051593441d6788\"],[\"member\",\"690bfafa3368339c81e74d31b4898ef160fdcfbec47fa0f8321b7f5363feeb9c\"],[\"member\",\"745064a030b9d7c795b7a755baf4e553f47d5f7fdb4a852bcf904ce3d660d01e\"],[\"member\",\"7dd1c2c511c75d751e803542b4f34bf09b6a55d88d1faa7f33d18899520e30e8\"],[\"admin\",\"100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494\"],[\"alias\",\"100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494\",\"admin box\"],[\"alias\",\"690bfafa3368339c81e74d31b4898ef160fdcfbec47fa0f8321b7f5363feeb9c\",\"esp32-sensor\"],[\"alias\",\"7dd1c2c511c75d751e803542b4f34bf09b6a55d88d1faa7f33d18899520e30e8\",\"Living Room\"]],\"content\":\"\",\"sig\":\"4d8ef36e71339c943f8bdf43d6e2b26bd2aa6dede0d7cf8939b049c7108ce686709bd41fb230586350c97fe4130cf280711e0e0b15f1cea6ca5458a0d0d753a2\"}",
+      "id": "b273a3625dbfc3a7a6b1dd37655c81fefc4605667dfd6a949d235c3aff80cd92",
+      "name": "newer",
+      "network_id": "home",
+      "ok": true,
+      "signed_at": 1800000500
+    },
+    {
+      "event": "{\"id\":\"ef1b19d19bd2860229ec3b847daffff75c5abc0e5306b263ac2365e73d41b2ce\",\"pubkey\":\"82e1d53cd559e7f7edee71bf396c0172815c5d967ac549b95fb826c83be5db61\",\"created_at\":1800000900,\"kind\":30388,\"tags\":[[\"d\",\"home\"],[\"app\",\"nostr-vpn/shared-roster\"],[\"v\",\"1\"],[\"name\",\"Home Mesh\"],[\"member\",\"7dd1c2c511c75d751e803542b4f34bf09b6a55d88d1faa7f33d18899520e30e8\"],[\"member\",\"82e1d53cd559e7f7edee71bf396c0172815c5d967ac549b95fb826c83be5db61\"],[\"admin\",\"82e1d53cd559e7f7edee71bf396c0172815c5d967ac549b95fb826c83be5db61\"]],\"content\":\"\",\"sig\":\"430a0fdbf0785e8dc9ec507e55d3435e99d4c15a4e9dbb6c32e5b38f81bd2242bfb3b824cee94757c93bc36628a93c7cb937da6605636e9c66080eb1ca10593d\"}",
+      "id": "ef1b19d19bd2860229ec3b847daffff75c5abc0e5306b263ac2365e73d41b2ce",
+      "name": "rogue",
+      "network_id": "home",
+      "ok": true,
+      "signed_at": 1800000900
+    },
+    {
+      "err": "CAPACITY",
+      "event": "{\"id\":\"3d6f0ed2d31dd21ec456c8c161052ea03849611d71790ba506231b1e9ffc5124\",\"pubkey\":\"100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494\",\"created_at\":1800000000,\"kind\":30388,\"tags\":[[\"d\",\"big\"],[\"app\",\"nostr-vpn/shared-roster\"],[\"v\",\"1\"],[\"name\",\"Big\"],[\"member\",\"02d75ad311e5ed18762b32e90728aa670e9009399f1b929df7dc0c709ead13c6\"],[\"member\",\"086cf4416215f51e6c28c0caaef2387deed7db15eee241d06e7d4503b8c6c561\"],[\"member\",\"0eb4b0115f119546941186b034e2991a076c2b951c3b33d380cd20c50b77861f\"],[\"member\",\"10a064da0314b8ac0623d5f2483f3b1ff7e8bbf846d1a3ecb0dfdd227044ca08\"],[\"member\",\"1a6921d1aa3c0af90aba29878bc2622ff3648f588e69988673d59c9e865df45f\"],[\"member\",\"25dc93507122575168eb2a9d0feb87e4140600831016f9137c84d00f7c50bb39\"],[\"member\",\"2ae8d0862f98edac4b7876e5cf85252b7fc76b22c5ed0d79f39a73c30d1ca98a\"],[\"member\",\"3b90424072a2f5e11a133139f27624cbe53fb9b6b686d82922b2588838700ed4\"],[\"member\",\"3f53e5d84b972e6e169139313fbc04af47d52937076608c5ea860f38bfc9e982\"],[\"member\",\"3fdc4ab6c61cfaf59273189e6cc32f3123ccd99221fafc516a005c8756e575f6\"],[\"member\",\"4cc25395b4b497d91ec2cbd99666d18bdf3c83c251c2b0ca56d5158b86ad0363\"],[\"member\",\"52cb8bf596fcd7e8ce71e880d25b439d3d38c4abe66dd241cc37340d4150aab0\"],[\"member\",\"5738870b4bf9f2190a167d1f4ab548658ad8bcf67617c5f4bb239a376357f3df\"],[\"member\",\"5794179746db84f6f1755ee13e474e9f61a8bd1aaa015dff3b17dfd022186786\"],[\"member\",\"5ad124420f5635c30a91684221b180b557830282ca7b2d279ad9275f3f8f1c3e\"],[\"member\",\"5e606b1757cab851acac334fb15e8132052b4d01c7ee75021d883a64bb1b1e55\"],[\"member\",\"662fdafa82d107f6677f2860edcd6a117fc408dc1ec43b8017fac929b258dab2\"],[\"member\",\"6bce1bed1ddf819c9cd3d44186e31a9266ea1b6b8ec6580f79777760cb89aa41\"],[\"member\",\"6f7f8c3c120ae5dced1260cc7ad1acb8504efca5ebcea7084c97a61c30c4a9b2\"],[\"member\",\"708c5ccd5d5d670b3fbd3b2358a8051483444844d559f8774822b09839d941b2\"],[\"member\",\"7dadfc24ab5f8823715fcbaef8a0826fcf6964168d48c2e1d5226cedf409882e\"],[\"member\",\"8e9e509838f818e5eebe5589d35d53d278431922e7da6c7cc76f89a3a7902961\"],[\"member\",\"955d37deb1a441000f53f686f46eb5bc4066e825378705ae524f660209b470df\"],[\"member\",\"95b34ca7b96c822bbd7e7d2e537dbf99f88e20e09c082c0e344e97885568720e\"],[\"member\",\"9e566770e89cb961974510601ac8aa60bc3104bb41dc20b4fa676943c8692f1d\"],[\"member\",\"a8d5ddb727d92ff887be0f8a0b2849de29b62811267cae61656592964d2907fc\"],[\"member\",\"a97b3aaad44b5f0feb03a8e5a57758c4bea31a9d0d2b8c41de1505b545826c29\"],[\"member\",\"ab9c3f427ede75224e2373e01a1ad0ecf05a620187086b754aabb8cc97929ed9\"],[\"member\",\"ad5c015ce2bb8c5dfd34a30ad9ab6d9efead1a2174763fea22f5a399d4b45d74\"],[\"member\",\"bc32f7d45be88887e6e48bbd4eb442531e483d979f73a3955afccdb15c683272\"],[\"member\",\"bcf8892c74d6ba2b2ae0f6499473a44cab2d0cc6436bd0f825a845dac2472eb4\"],[\"member\",\"c0c8ca9c7cecb155875578490aca2aee02e3f86701a18308072bc7d2354da13e\"],[\"member\",\"c17fdae8abb5afe8f739ac9314289a94ee72b829c9ce0389d5753152a44937fc\"],[\"member\",\"c193724cb69e6654a88aed760c3afb6434337fa888f2d8c742694a5a57a68097\"],[\"member\",\"c4c1007f423d0d847be2398c4f8e9d86c43cf363f93db21b9c60f51c8ab19f4d\"],[\"member\",\"e829b4fd4acd8ffd0d9b0bad8a16ec59ecacba88f5a09ea0677eea8aef4e3240\"],[\"member\",\"ed048a10f2ee7db74f75e48534e387673d7d6e79dc2777e5d2ad3a58463f5eb0\"],[\"member\",\"f39621306e6d88fbb98d831668c5df3b12de0c38f70e34ec89b50060285c5774\"],[\"member\",\"f9f1c0fb1fb0d9f23826cef56e6e86d5d0db73c5768465a847c282fe9e5d17e2\"],[\"member\",\"fce415d58a24a3ecb3b14afebbe1c72b495e7e818887079651fbda9806533ab7\"],[\"admin\",\"100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494\"]],\"content\":\"\",\"sig\":\"053f2c9863397e385443f2741bdc69ec82470c9d85523b6b27b6c52331b062555dcb6cfd656a92a23560769d395cb0dba08e882db6ad71280311bc36d41a3dde\"}",
+      "name": "too-many",
+      "ok": false
+    }
+  ],
+  "schnorr": {
+    "msg": "c1268eabd5a75673b296bba2e4d4fe92ca9ceaef11974eea2a1225829ce55b3d",
+    "pk": "100f6d8cbf94afb6fc58e9c384b9b3a6516091373a83c869f4e24a9d2bb4a494",
+    "sig": "c5acf3d9c6e75874a070c9448223b46855e1087ae68ca36c4820ddb9cdaf2e848ef63b5a6294649441b555b41fa6d97c5dfe55f02c7e1e21697ffe1431e90f30"
+  }
+}
